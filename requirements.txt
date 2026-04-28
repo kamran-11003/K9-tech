@@ -1,0 +1,17 @@
+# ── Web framework ────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# ── Gemini (RAG + TTS) ────────────────────────────────────────────────────────
+google-genai>=0.8.0               # new unified SDK — includes TTS support
+google-generativeai>=0.7.0        # kept for gemini_rag compatibility
+numpy>=1.26.0
+scikit-learn>=1.4.0               # TF-IDF retrieval
+
+# ── Whisper HTTP client ───────────────────────────────────────────────────────
+httpx>=0.27.0
+
+# ── Config ────────────────────────────────────────────────────────────────────
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.0

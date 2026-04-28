@@ -1,0 +1,298 @@
+AI AUTOMATION AGENCY
+Complete Knowledge Base for RAG Chatbot
+Document Type RAG Chatbot Knowledge Base — Full Agency Profile
+Version 1.0 | 2025 Edition
+Covers
+AI Automation · n8n Workflows · WhatsApp AI · Inbound/Outbound
+Calling · Trending AI Features
+Audience Prospects, Clients, Chatbot Retrieval Systems
+This document serves as the official knowledge source for our AI agency's RAG-powered chatbot. It
+contains structured, factual, and conversational information about every service we offer, how our
+technology works, pricing guidance, onboarding steps, and frequently asked questions — all formatted for
+optimal retrieval and embedding.
+
+■ 1. AGENCY OVERVIEW
+We are a full-stack AI Automation Agency specialising in deploying intelligent systems that replace
+manual, repetitive work with smart, scalable automation. Our solutions span conversational AI, workflow
+automation, voice AI, and bespoke AI agent development — all delivered as managed services so clients
+can focus on growth rather than infrastructure.
+
+Our Mission
+To make enterprise-grade AI accessible to businesses of every size — turning complex AI technology into
+simple, measurable business outcomes.
+
+What We Do
+AI Automation — End-to-end automation of business processes using AI-native tools.
+n8n Workflow Builds — Custom no-code/low-code automation pipelines connecting 400+ apps.
+WhatsApp AI — Intelligent WhatsApp chatbots for sales, support, and lead qualification.
+Inbound AI Calling — AI voice agents that answer, qualify, and route inbound calls 24/7.
+Outbound AI Calling — Automated outbound dialling campaigns powered by conversational AI.
+RAG Chatbots — Retrieval-Augmented Generation bots trained on your own knowledge base.
+AI Agents — Autonomous agents that browse, research, write, and take action.
+
+■ 2. AI AUTOMATION SERVICES
+AI Automation is the practice of using artificial intelligence to perform tasks that previously required human
+cognition — reading emails, classifying leads, generating reports, routing tickets, and much more. We
+design, build, and maintain these systems end-to-end.
+
+Core Automation Categories
+Document Intelligence — Extract, classify, and route data from PDFs, invoices, contracts, and forms using OCR + LLMs.
+Email AI — Auto-draft replies, classify inbound email, flag urgent messages, and trigger follow-up sequences.
+CRM Automation — Sync leads, update deal stages, score contacts, and send personalised outreach automatically.
+Customer Support AI — First-line support bots that resolve Tier-1 tickets without human intervention.
+Data Pipeline AI — Intelligent ETL: extract from web/APIs, transform with LLMs, load into databases or dashboards.
+Social Media AI — Auto-generate, schedule, and publish content across LinkedIn, Instagram, X (Twitter), and more.
+HR & Recruitment AI — Screen CVs, send interview invites, and onboard new hires with zero manual effort.
+
+Technology Stack
+LLM Providers: OpenAI GPT-4o, Anthropic Claude, Google Gemini, Mistral, LLaMA 3
+Orchestration: LangChain, LlamaIndex, CrewAI, AutoGen
+Vector DBs: Pinecone, Weaviate, Qdrant, ChromaDB, Supabase pgvector
+Deployment: AWS, GCP, Azure, Vercel, Railway, self-hosted VPS
+Integrations: Zapier, Make, n8n, REST APIs, webhooks, custom SDKs
+
+■ 3. n8n WORKFLOW AUTOMATION
+n8n is an open-source, self-hostable workflow automation platform with 400+ native integrations. We use
+n8n as the backbone for most of our automation projects because it combines no-code simplicity with
+full-code power — giving clients transparent, auditable workflows they can see and understand, without
+vendor lock-in.
+
+Why n8n?
+- Open-source: full transparency, no per-task fees on self-hosted plans.
+- Fair-code licence: deploy on your own infrastructure for full data privacy.
+- AI nodes built-in: native OpenAI, Anthropic, Hugging Face, and LangChain nodes.
+- 400+ integrations: Slack, Gmail, HubSpot, Salesforce, Airtable, Notion, Shopify, and more.
+- Visual canvas: clients can see exactly what their automation does.
+- Active community: 50,000+ shared workflow templates.
+
+Popular n8n Workflows We Build
+Lead Nurture Bot — New CRM contact trigger: sends personalised email sequence, scores lead, alerts sales rep.
+Invoice Processor — Email attachment trigger: extracts invoice data with AI, logs to Google Sheets, notifies accountant.
+Social Content Engine — Scheduled daily trigger: generates, reviews, and publishes posts across all platforms.
+Support Ticket Router — Freshdesk webhook: classifies ticket with AI, assigns to right agent, drafts response.
+WhatsApp Lead Qualifier — WhatsApp message trigger: asks qualification questions, books meeting via Calendly.
+AI Research Agent — Slack command trigger: browses web, summarises findings, posts to Notion.
+E-commerce Order AI — Shopify order trigger: confirms order, updates inventory, triggers fulfilment, sends SMS.
+
+Hosting Options
+n8n Cloud — Managed by n8n. Quick setup, starts at $20/month. Best for small teams.
+Self-hosted VPS — We deploy on your server (DigitalOcean, Hetzner, AWS EC2). Full control, lowest cost at scale.
+Docker / K8s — Enterprise deployments with auto-scaling, high availability, and SSO.
+
+■ 4. WHATSAPP AI CHATBOT SOLUTIONS
+WhatsApp has over 2 billion active users and boasts a 98% message open rate — making it the
+highest-engagement channel for customer communication. We build intelligent WhatsApp AI agents that
+handle conversations at scale, 24 hours a day, in any language.
+
+WhatsApp Business API Integration
+All our WhatsApp solutions use the official WhatsApp Business API (via Meta or BSP partners such as
+Twilio, 360dialog, or WATI). This ensures compliance, high deliverability, and access to advanced features
+like interactive buttons, list menus, and media messages.
+
+Use Cases
+Lead Qualification — Bot asks qualifying questions (budget, timeline, requirements) and scores leads automatically.
+Appointment Booking — Integrates with Calendly, Cal.com, or custom calendars to book meetings inside WhatsApp.
+Customer Support — Handles FAQs, order tracking, returns, and escalates to human agent when needed.
+Sales Funnel — Guides prospects through discovery → demo booking → proposal — entirely in WhatsApp.
+Payment Collection — Sends invoices and payment links; confirms receipt automatically.
+Onboarding Flows — Walks new customers through setup steps, collects documents, answers questions.
+Broadcast Campaigns — Sends personalised promotional messages to opted-in contacts at scale.
+Feedback & Surveys — Collects NPS scores and review requests post-purchase via conversational UI.
+
+Technical Architecture
+API Provider: Meta Cloud API / Twilio / 360dialog / WATI
+AI Brain: GPT-4o or Claude 3.5 Sonnet with custom system prompt and persona
+Memory: Conversation history stored in Redis or PostgreSQL per contact
+Knowledge Base: RAG pipeline over your documents — answers questions from your own content
+Human Handoff: Chatwoot, Freshdesk, or custom agent dashboard integration
+Languages: Supports 50+ languages including Arabic, Urdu, Hindi, Spanish, French
+
+■ 5. INBOUND AI CALLING
+Our Inbound AI Voice Agents answer every incoming call instantly — no hold music, no missed calls.
+Powered by real-time speech-to-text, large language models, and text-to-speech, these agents sound
+natural, understand context, and complete complex tasks autonomously.
+
+How It Works
+Step 1 — Call Received: Customer calls your business number (Twilio, Vonage, or existing PBX).
+Step 2 — Speech-to-Text: Audio is streamed in real time to Deepgram or Whisper for instant transcription.
+Step 3 — AI Processing: LLM processes the intent, queries knowledge base if needed, formulates response.
+Step 4 — Text-to-Speech: ElevenLabs or Cartesia converts response to natural-sounding voice in under 500ms latency.
+Step 5 — Action Taken: Bot books appointment, updates CRM, sends SMS, or transfers to human agent.
+Step 6 — Call Summary: Full transcript and summary logged to CRM/Slack/email automatically.
+
+Inbound Use Cases
+- Dental/medical clinic appointment booking (24/7, no receptionist needed)
+- Real estate inquiry handling and viewing scheduling
+- Restaurant reservation management
+- E-commerce order status and returns
+- Legal firm first-intake qualification
+- IT helpdesk Tier-1 support and ticket creation
+- Hotel front desk — room info, check-in times, local recommendations
+
+Technology Partners
+Telephony: Twilio, Vonage, SignalWire, Plivo, Telnyx
+STT (Speech): Deepgram Nova-2, OpenAI Whisper, Google Speech-to-Text
+LLM: GPT-4o Realtime, Claude 3.5, Gemini Live
+TTS (Voice): ElevenLabs, Cartesia, OpenAI TTS, Playht
+Orchestration: VAPI.ai, Bland.ai, Retell AI, custom WebSocket servers
+
+■ 6. OUTBOUND AI CALLING
+Outbound AI calling allows businesses to conduct thousands of personalised calls per day without hiring
+additional sales or support staff. Our AI agents follow custom scripts, handle objections, book
+appointments, and log results — all autonomously.
+
+Key Capabilities
+Personalised Dialling — Each call opens with the prospect's name, company, and relevant context pulled from CRM.
+Dynamic Scripting — AI adapts its pitch based on answers — not a rigid IVR tree.
+Objection Handling — Pre-trained on 50+ common objections with natural, human-sounding responses.
+Live Transfer — Instantly warm-transfers hot leads to human closers mid-call.
+Voicemail Drop — Leaves personalised pre-recorded voicemail if no answer — at zero extra cost.
+Appointment Booking — Checks real calendar availability and books meetings on the call.
+Compliance — Built-in DNC list checking, call recording consent, TCPA/GDPR safeguards.
+Analytics Dashboard — Real-time stats: calls made, connected rate, conversion rate, sentiment analysis.
+
+Outbound Use Cases
+Sales Prospecting — Cold/warm outreach to B2B or B2C lists with personalised pitches.
+Appointment Setting — Book demos, consultations, and property viewings at scale.
+Re-engagement — Win-back lapsed customers with personalised offers.
+Event Reminders — Confirm attendance, answer questions, and upsell event add-ons.
+Debt Collection — Compliant, empathetic payment reminder calls.
+Survey Calls — Collect NPS or market research data via conversational phone surveys.
+Recruitment — Screen candidates, confirm interview times, answer job-related FAQs.
+
+■ 7. TRENDING AI FEATURES WE OFFER
+The AI landscape evolves rapidly. Below are the most in-demand AI capabilities we currently offer as part
+of our agency services — all production-ready and available for immediate deployment.
+
+AI Agents & Multi-Agent Systems
+Autonomous AI agents that plan, use tools, browse the web, write code, and complete multi-step tasks
+without human intervention. We build single-agent and multi-agent crews using CrewAI, AutoGen, and
+LangGraph.
+
+RAG (Retrieval-Augmented Generation)
+Connect any LLM to your private documents, websites, databases, and knowledge bases. The AI answers
+questions using your actual content — not hallucinated guesses. Ideal for internal wikis, product docs,
+legal knowledge bases.
+
+Voice AI & Real-Time Conversation
+Sub-second latency voice agents powered by GPT-4o Realtime, ElevenLabs, and Deepgram.
+Indistinguishable from human agents for most use cases.
+
+Vision AI & Multimodal Processing
+AI that reads images, screenshots, PDFs, and videos. Use cases: invoice reading, quality control, social
+media content analysis, ID verification.
+
+AI Web Scraping & Research Agents
+Agents that browse the internet, extract structured data, monitor competitor pricing, and compile research
+reports automatically.
+
+AI Email Assistants (Gmail/Outlook)
+AI drafts replies, categorises inbox, writes cold outreach sequences, and follows up automatically —
+integrated directly into your email client.
+
+AI Business Intelligence
+Chat with your data: connect to databases or spreadsheets and ask questions in plain English. AI
+generates SQL, charts, and insights on demand.
+
+AI Content Moderation
+Automatically detect and filter spam, toxic content, policy violations, and fraud across platforms at scale.
+
+AI Content Generation
+Generate blog posts, ad copy, social captions, product descriptions, and video scripts — at scale and
+on-brand.
+
+On-Premise / Private AI Deployment
+Run open-source LLMs (LLaMA 3, Mistral, Qwen) on your own servers for maximum privacy and data
+sovereignty. No data leaves your infrastructure.
+
+AI Function Calling & Tool Use
+LLMs that call external APIs, run calculations, query databases, and take real actions inside your software
+ecosystem.
+
+WhatsApp + AI Commerce
+Full e-commerce experience inside WhatsApp: browse products, add to cart, checkout, and pay — all
+without leaving the chat.
+
+■ 8. PRICING & PACKAGES
+We offer flexible engagement models — from one-off project builds to fully managed monthly retainers.
+All prices are in USD and can be adapted based on scope and volume.
+
+Starter Bot — Single-channel chatbot (WhatsApp or Web), 1 workflow, 30-day support — Starting at $800 one-time.
+Growth Automation — 3 n8n workflows, WhatsApp AI, CRM integration, 60-day support — Starting at $2,500 one-time.
+Voice AI Agent — Inbound OR outbound voice AI, custom script, telephony setup — Starting at $3,000 one-time.
+Full Agency Stack — Chatbot + Voice AI + n8n (5 workflows) + RAG knowledge base — Starting at $6,500 one-time.
+Monthly Retainer — Ongoing builds, updates, monitoring, priority support, 10 hrs/mo — $1,500/month.
+Enterprise Custom — Unlimited scope, dedicated engineer, SLA, on-premise options — Custom quote.
+
+All packages include a free 30-minute discovery call, project scoping document, and handover documentation.
+Add-ons available: extra n8n workflows, additional language support, white-label reseller licences.
+
+■ 9. ONBOARDING & DELIVERY PROCESS
+Week 1 — Discovery: 30-min call to understand your business, goals, and current tools. We deliver a scoping doc within 48 hours.
+Week 1-2 — Design: We map out the automation architecture, define triggers/actions, draft conversation flows and scripts.
+Week 2-3 — Build: Development sprint: we build, configure, and internally test all components.
+Week 3 — UAT: User Acceptance Testing: you test the system, provide feedback, we iterate.
+Week 4 — Go Live: Deployment to production, final QA, and team training (Loom walkthrough videos).
+Ongoing — Support: Bug fixes, small updates, and performance monitoring included for agreed support period.
+
+What We Need From You
+- Access to your existing tools (CRM, email, WhatsApp Business number, phone number)
+- Brand voice guidelines (tone, language, persona name for the AI)
+- Knowledge base documents (FAQs, product info, policies, pricing)
+- Sample conversations or call recordings for AI training
+- A nominated point of contact for decisions and feedback
+
+■ 10. FREQUENTLY ASKED QUESTIONS
+
+Q: Will the AI sound robotic on calls?
+A: No. Modern TTS engines like ElevenLabs produce voices that are virtually indistinguishable from
+humans. We offer voice cloning if you want the agent to sound like a specific person on your team.
+
+Q: Can the chatbot speak multiple languages?
+A: Yes. Our WhatsApp and web chatbots support 50+ languages including Arabic, Urdu, Hindi, Spanish,
+French, and German. The AI detects the customer's language automatically.
+
+Q: Is my data secure?
+A: Absolutely. All data is encrypted in transit and at rest. For maximum privacy, we offer on-premise
+deployments where no data leaves your own servers.
+
+Q: What if the AI can't answer a question?
+A: We configure fallback behaviours: the bot says it will check and follow up, sends an alert to a human,
+or transfers the call/chat to a live agent — whichever fits your workflow.
+
+Q: How do I update the chatbot's knowledge?
+A: For RAG-based bots, simply update your source documents (Google Drive, Notion, website, PDF).
+The system re-indexes automatically. For scripted flows, we provide a simple edit interface.
+
+Q: Do you offer white-label solutions?
+A: Yes. We offer a reseller / white-label programme for agencies who want to sell our AI solutions under
+their own brand.
+
+Q: How long does it take to go live?
+A: A standard WhatsApp bot or n8n workflow takes 1–2 weeks. Voice AI agents typically take 2–4
+weeks. Full agency stacks 4–6 weeks.
+
+Q: What is n8n and why not use Zapier or Make?
+A: n8n is open-source and self-hostable, meaning no per-task pricing and full data control. It also has
+native AI nodes that Make and Zapier lack. We use all three platforms and recommend n8n for most
+AI-heavy projects.
+
+Q: Can the AI handle payment processing?
+A: Yes. We integrate with Stripe, PayPal, and regional payment gateways. The AI can send payment
+links, confirm transactions, and trigger fulfilment workflows.
+
+Q: What happens after the support period?
+A: You can extend with a monthly retainer or move to a self-managed model with full documentation we
+provide. We also offer pay-as-you-go support tickets.
+
+■ 11. GET IN TOUCH
+Ready to automate your business with AI? Here's how to start:
+
+WhatsApp — Message us directly on WhatsApp — our AI bot (and team) are available 24/7.
+Email — hello@youraiagency.com — we reply within 4 business hours.
+Discovery Call — Book a free 30-minute strategy call: calendly.com/youraiagency
+Website — www.youraiagency.com — case studies, demos, and live chatbot.
+LinkedIn — linkedin.com/company/youraiagency — follow for weekly AI tips.
+
+This document is optimised for RAG ingestion. All sections are structured for semantic chunking and vector embedding.
+Update service details, pricing, and contact info before deploying to production.
