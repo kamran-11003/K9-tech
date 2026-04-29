@@ -18,7 +18,28 @@ class Settings(BaseSettings):
 
     # ── Data paths ──────────────────────────────────────────────────────
     DATA_DIR: str = "./data"
-    LEADS_CSV_PATH: str = "./data/leads.csv"
+
+    # ── MongoDB ─────────────────────────────────────────────────────────
+    MONGO_URI: str = "mongodb://localhost:27017"
+    MONGO_DB:  str = "k9"
+
+    # ── Production safety knobs ────────────────────────────────────────
+    # Token required for /leads & /appointments listings (set in .env).
+    # Empty string = endpoints stay open (dev mode only).
+    ADMIN_TOKEN: str = ""
+
+    # CORS origins (comma-separated). "*" allows any.
+    CORS_ORIGINS: str = "*"
+
+    # Rate-limiting (per client IP, sliding window — best-effort, in-memory)
+    RATE_LIMIT_PER_MIN: int = 30      # /chat, /voice, /tts
+    CONTACT_LIMIT_PER_HOUR: int = 5   # /contact, /appointments POST
+    BOOKING_LIMIT_PER_DAY: int = 8    # /appointments POST per IP
+
+    # Input size caps
+    MAX_MESSAGE_CHARS:  int = 2000
+    MAX_AUDIO_BYTES:    int = 10 * 1024 * 1024   # 10 MB
+    MAX_HISTORY_TURNS:  int = 12                 # trim Aria session memory
 
     class Config:
         env_file = ".env"
