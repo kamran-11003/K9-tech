@@ -1,0 +1,16 @@
+# Git / cache
+.git
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Local secrets — set these in the Vercel dashboard instead
+.env
+
+# Dev-only docs
+PORTFOLIO.md
+README.md
+.env.example
+
+# Data files are bundled via the Python build; exclude nothing else

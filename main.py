@@ -33,7 +33,7 @@ from fastapi import FastAPI, File, Form, Header, HTTPException, Request, UploadF
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel, EmailStr, Field, field_validator
+from pydantic import BaseModel, Field, field_validator
 
 from config import settings
 from services.aria_tools import (
